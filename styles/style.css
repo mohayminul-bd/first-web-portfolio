@@ -15,9 +15,7 @@
 .secondary-bg{
     background-color: #fff8f3;
 }
-.text-primary{
-    color: #FD6E0A;
-}
+
 .dark-2{
     color: #474774;
 }
@@ -40,6 +38,9 @@
     color: #757575;
 }
 /* nav styles */
+.text-primary{
+    color: #FD6E0A;
+}
 nav{
     display: flex;
     align-items: center;
