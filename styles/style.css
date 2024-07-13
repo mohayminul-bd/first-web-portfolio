@@ -77,6 +77,9 @@ nav li a{
 .banner-content{
     max-width: 580px;
 }
+.margin{
+    margin-bottom: 20px;
+}
 .banner-greetings{
     font-size: 45px;
     font-weight: 600px;
@@ -160,4 +163,41 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     margin-bottom: 20px;
     border: none;
     font-size: 20px;
+}
+
+/* responsiv media query  */
+
+@media screen and (max-width:576px) {
+    .skills-container, .resume-container, footer , .about-items, .banner, nav, nav > ul{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-title{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .about{
+        padding: 20px;
+    }
+    footer{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .footer-colum{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
 }
